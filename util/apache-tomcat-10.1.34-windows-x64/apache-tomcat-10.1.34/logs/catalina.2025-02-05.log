@@ -1,0 +1,56 @@
+05-Feb-2025 14:38:39.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.34
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 16:01:16 UTC
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.34.0
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.6+8-LTS-188
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34
+05-Feb-2025 14:38:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34
+05-Feb-2025 14:38:39.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\conf\logging.properties
+05-Feb-2025 14:38:39.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2025 14:38:39.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Feb-2025 14:38:39.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Feb-2025 14:38:39.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34
+05-Feb-2025 14:38:39.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\temp
+05-Feb-2025 14:38:39.840 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Feb-2025 14:38:39.858 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Feb-2025 14:38:40.243 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2025 14:38:40.284 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [877] milliseconds
+05-Feb-2025 14:38:40.402 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Feb-2025 14:38:40.402 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+05-Feb-2025 14:38:40.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\docs]
+05-Feb-2025 14:38:40.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\docs] has finished in [527] ms
+05-Feb-2025 14:38:40.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\examples]
+05-Feb-2025 14:38:41.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\examples] has finished in [871] ms
+05-Feb-2025 14:38:41.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\host-manager]
+05-Feb-2025 14:38:41.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\host-manager] has finished in [54] ms
+05-Feb-2025 14:38:41.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\manager]
+05-Feb-2025 14:38:41.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\manager] has finished in [68] ms
+05-Feb-2025 14:38:41.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\ROOT]
+05-Feb-2025 14:38:42.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\webapps\ROOT] has finished in [41] ms
+05-Feb-2025 14:38:42.017 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2025 14:38:42.085 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1780] milliseconds
+05-Feb-2025 14:38:56.546 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\conf\Catalina\localhost\WebApplication1.xml]
+05-Feb-2025 14:38:56.549 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+05-Feb-2025 14:38:56.601 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\conf\Catalina\localhost\WebApplication1.xml] has finished in [54] ms
+05-Feb-2025 14:38:56.605 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+05-Feb-2025 16:55:39.787 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+05-Feb-2025 16:55:40.855 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+05-Feb-2025 16:55:40.855 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+05-Feb-2025 16:55:41.173 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+05-Feb-2025 16:55:47.759 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Feb-2025 16:55:47.759 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+05-Feb-2025 19:21:57.616 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2025 19:21:57.636 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2025 19:21:57.748 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2025 19:21:57.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2025 19:21:58.076 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

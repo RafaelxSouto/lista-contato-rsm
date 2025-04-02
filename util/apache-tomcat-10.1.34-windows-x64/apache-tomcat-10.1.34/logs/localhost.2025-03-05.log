@@ -1,0 +1,1719 @@
+05-Mar-2025 14:12:27.946 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Mar-2025 14:12:27.947 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Mar-2025 14:12:27.952 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3015db78')
+05-Mar-2025 15:07:13.741 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 15:52:43.133 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:24:36.883 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:45:23.665 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:47:20.471 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "if", ( expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [37] in the jsp file: [/excpro.jsp]
+Syntax error on token "0", ) expected after this token
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, cod);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if resultado==0 {
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMassage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMassage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:47:49.485 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMenssage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [43] in the jsp file: [/excpro.jsp]
+The method getMenssage() is undefined for the type Exception
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMenssage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:48:08.953 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:48:49.507 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/excpro.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+38:                     out.print("Este produto não está cadastrado no banco");
+39:                 }else
+40:                     out.print("O produto de código = " + cod + ", foi excluido com sucesso");
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+An error occurred at line: [173] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [175] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [176] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [179] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [184] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [187] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [188] in the generated java file: [C:\Users\rafae\OneDrive\Área de Trabalho\Backend\apache-tomcat-10.1.34-windows-x64\apache-tomcat-10.1.34\work\Catalina\localhost\MeuSite\org\apache\jsp\excpro_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:49:32.694 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/excpro.jsp]
+Syntax error, insert ";" to complete Statement
+41:                 }
+42:             }catch(Exception erro) {
+43:                 String mensagemErro=erro.getMessage();
+44:                 out.print("Entre em contato com o administrador e informe o erro")
+45:             }
+46:             %>
+47:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 16:59:38.433 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/MeuSite] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [35] in the jsp file: [/excpro.jsp]
+codigo cannot be resolved to a variable
+32: 
+33:                 String sql="DELETE FROM produtos WHERE codigo=?";
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, codigo);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if(resultado==0) {
+38:                     out.print("Este produto não está cadastrado no banco");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [35] in the jsp file: [/excpro.jsp]
+codigo cannot be resolved to a variable
+32: 
+33:                 String sql="DELETE FROM produtos WHERE codigo=?";
+34:                 st=conecta.prepareStatement(sql);
+35:                 st.setInt(1, codigo);
+36:                 int resultado=st.executeUpdate(); //executa a exclusão
+37:                 if(resultado==0) {
+38:                     out.print("Este produto não está cadastrado no banco");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:524)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:331)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+05-Mar-2025 22:52:45.300 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Mar-2025 22:52:45.300 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

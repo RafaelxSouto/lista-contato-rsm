@@ -1,0 +1,2 @@
+22-Feb-2025 12:10:40.979 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Feb-2025 12:10:40.979 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
