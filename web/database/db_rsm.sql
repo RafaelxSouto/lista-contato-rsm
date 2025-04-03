@@ -1,8 +1,9 @@
--- Criação do banco de dados
+-- Criação do banco de dados principal do sistema
 CREATE DATABASE IF NOT EXISTS db_rsm;
 USE db_rsm;
 
--- Tabela de estados
+-- Tabela de estados brasileiros
+-- Armazena as siglas dos estados para validação e relacionamento
 CREATE TABLE IF NOT EXISTS tb_estado_rsm (
     id INT AUTO_INCREMENT PRIMARY KEY,
     sigla CHAR(2) NOT NULL UNIQUE
@@ -14,7 +15,8 @@ INSERT INTO tb_estado_rsm (sigla) VALUES
 ('MA'), ('MT'), ('MS'), ('MG'), ('PA'), ('PB'), ('PR'), ('PE'), ('PI'),
 ('RJ'), ('RN'), ('RS'), ('RO'), ('RR'), ('SC'), ('SP'), ('SE'), ('TO');
 
--- Tabela de DDDs
+-- Tabela de DDDs brasileiros
+-- Armazena os códigos DDD válidos para validação e relacionamento
 CREATE TABLE IF NOT EXISTS tb_ddd_rsm (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ddd CHAR(2) NOT NULL UNIQUE
@@ -31,7 +33,9 @@ INSERT INTO tb_ddd_rsm (ddd) VALUES
 ('86'), ('87'), ('88'), ('89'), ('91'), ('92'), ('93'), ('94'), ('95'),
 ('96'), ('97'), ('98'), ('99');
 
--- Tabela de contatos
+-- Tabela principal de contatos
+-- Armazena as informações pessoais e de contato dos registros
+-- Possui relacionamentos com as tabelas de estado e DDD para garantir a integridade dos dados
 CREATE TABLE IF NOT EXISTS tb_contato_rsm (
     id INT AUTO_INCREMENT PRIMARY KEY,
     primeiro_nome VARCHAR(50) NOT NULL,

@@ -1,3 +1,18 @@
+<%--
+    Página de Login do Sistema
+    
+    Esta página implementa o processo de autenticação:
+    - Formulário de login com validação de campos obrigatórios
+    - Tratamento de diferentes tipos de erros de autenticação
+    - Redirecionamento após autenticação bem-sucedida
+    - Layout responsivo e amigável
+    
+    Fluxo de autenticação:
+    1. Usuário preenche credenciais
+    2. Dados são enviados para autenticar.jsp
+    3. Se autenticado, redireciona para index.jsp
+    4. Se houver erro, exibe mensagem apropriada
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

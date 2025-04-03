@@ -1,3 +1,14 @@
+/**
+ * Estilos específicos da página de login
+ *
+ * Este arquivo contém os estilos exclusivos para a página de login:
+ * - Layout centralizado com flexbox
+ * - Formulário responsivo
+ * - Validações visuais
+ * - Mensagens de erro
+ * - Adaptações para dispositivos móveis
+ */
+
 body {
     margin: 0;
     padding: 0;

@@ -1,3 +1,15 @@
+/**
+ * Realiza a validação completa do formulário de contato
+ * 
+ * Esta função verifica:
+ * - Se o endereço foi preenchido
+ * - Se a cidade contém apenas letras e espaços
+ * - Se o DDD possui exatamente 2 dígitos numéricos
+ * - Se o celular possui exatamente 9 dígitos numéricos
+ * - Se o email está em um formato válido
+ * 
+ * @returns {boolean} Retorna true se todas as validações passarem, false caso contrário
+ */
 function validarFormulario() {
     const cidade = document.getElementById('cidade').value;
     const ddd = document.getElementById('ddd').value;
@@ -54,6 +66,18 @@ function validarFormulario() {
     return true;
 }
 
+/**
+ * Valida um número de CPF
+ * 
+ * Esta função realiza a validação completa de um CPF:
+ * - Remove caracteres não numéricos
+ * - Verifica se possui 11 dígitos
+ * - Verifica se não são todos dígitos iguais
+ * - Calcula e valida os dígitos verificadores
+ * 
+ * @param {string} cpf - O número do CPF a ser validado
+ * @returns {boolean} Retorna true se o CPF for válido, false caso contrário
+ */
 function validarCPF(cpf) {
     // Remove caracteres não numéricos
     cpf = cpf.replace(/\D/g, '');
@@ -93,7 +117,14 @@ function validarCPF(cpf) {
     return true;
 }
 
-// Formata os campos enquanto o usuário digita
+/**
+ * Inicializa os eventos de formatação de campos
+ * 
+ * Este evento é disparado quando o DOM é completamente carregado e:
+ * - Adiciona máscaras de formatação para campos como celular e CPF
+ * - Aplica validações em tempo real enquanto o usuário digita
+ * - Melhora a experiência do usuário com feedback visual imediato
+ */
 document.addEventListener('DOMContentLoaded', function() {
     const celularInput = document.getElementById('celular');
     if (celularInput) {

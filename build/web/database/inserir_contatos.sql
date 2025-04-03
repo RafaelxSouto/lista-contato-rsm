@@ -1,5 +1,19 @@
+-- Script para inserção de dados de exemplo na tabela de contatos
 USE db_rsm;
 
+-- Campos da tabela:
+-- primeiro_nome: Nome do contato
+-- ultimo_nome: Sobrenome do contato
+-- endereco: Endereço completo
+-- cidade: Cidade de residência
+-- estado: Sigla do estado (referência à tabela tb_estado_rsm)
+-- ddd: Código DDD do telefone (referência à tabela tb_ddd_rsm)
+-- celular: Número do celular sem DDD
+-- email: Endereço de e-mail
+-- mes_nascimento: Mês de nascimento (1-12)
+-- cpf: CPF único do contato
+
+-- Inserção de contatos de exemplo para teste do sistema
 INSERT INTO tb_contato_rsm (primeiro_nome, ultimo_nome, endereco, cidade, estado, ddd, celular, email, mes_nascimento, cpf) VALUES
 ('Maria', 'Silva', 'Rua das Flores 123', 'São Paulo', 'SP', '11', '987654321', 'maria.silva@email.com', 3, '12345678901'),
 ('João', 'Santos', 'Av Brasil 456', 'Rio de Janeiro', 'RJ', '21', '976543210', 'joao.santos@email.com', 5, '23456789012'),

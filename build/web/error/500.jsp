@@ -1,3 +1,14 @@
+<%--
+    Página de Erro 500 - Erro Interno do Servidor
+    
+    Esta página é exibida quando ocorre um erro interno no processamento da requisição.
+    Principais características:
+    - Exibe uma mensagem amigável informando sobre o erro interno
+    - Mantém o menu de navegação para fácil acesso a outras áreas do sistema
+    - Fornece um botão para retornar à página inicial
+    - Registra o erro no log do servidor para análise posterior
+    - Utiliza estilos consistentes com o resto da aplicação
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

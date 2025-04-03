@@ -1,3 +1,19 @@
+<%--
+    Página de Cadastro de Contatos
+    
+    Esta página implementa o formulário de cadastro de contatos:
+    - Validação de sessão do usuário
+    - Formulário com todos os campos necessários
+    - Validações client-side via JavaScript
+    - Tratamento de diferentes tipos de erro
+    - Integração com o banco de dados
+    
+    Fluxo de cadastro:
+    1. Validação de autenticação do usuário
+    2. Preenchimento do formulário com validações em tempo real
+    3. Envio dos dados para salvar_contato.jsp
+    4. Feedback visual do resultado da operação
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
     if (session.getAttribute("usuario") == null) {

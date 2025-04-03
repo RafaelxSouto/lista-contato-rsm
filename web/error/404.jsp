@@ -1,3 +1,13 @@
+<%--
+    Página de Erro 404 - Página Não Encontrada
+    
+    Esta página é exibida quando o usuário tenta acessar uma URL que não existe no sistema.
+    Principais características:
+    - Exibe uma mensagem amigável informando que a página não foi encontrada
+    - Mantém o menu de navegação para fácil acesso a outras áreas do sistema
+    - Fornece um botão para retornar à página inicial
+    - Utiliza estilos consistentes com o resto da aplicação
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

@@ -1,4 +1,16 @@
-/* Estilos gerais */
+/**
+ * Estilos globais do sistema de lista de contatos
+ *
+ * Este arquivo contém todos os estilos base do sistema, incluindo:
+ * - Layout e estrutura básica
+ * - Menu de navegação
+ * - Cards e grids
+ * - Formulários e inputs
+ * - Tabelas de listagem
+ * - Estilos responsivos
+ */
+
+/* Configurações básicas e reset */
 body {
     margin: 0;
     padding: 0;
