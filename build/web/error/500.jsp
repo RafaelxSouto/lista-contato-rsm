@@ -16,16 +16,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erro Interno do Servidor</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="/lista-contato-rsm/styles/styles.css">
 </head>
 <body>
     <div class="nav-menu">
         <div class="container">
-            <a href="../index.jsp">Início</a>
-            <a href="../cadastrar.jsp">Cadastrar Contato</a>
-            <a href="../listar.jsp">Listar Contatos</a>
-            <a href="../consultar.jsp">Consultar</a>
-            <a href="../logout.jsp">Sair</a>
+            <a href="/lista-contato-rsm/index.jsp">Início</a>
+            <a href="/lista-contato-rsm/cadastrar.jsp">Cadastrar Contato</a>
+            <a href="/lista-contato-rsm/listar.jsp">Listar Contatos</a>
+            <a href="/lista-contato-rsm/consultar.jsp">Consultar</a>
+            <a href="/lista-contato-rsm/editar.jsp">Editar</a>
+            <a href="/lista-contato-rsm/excluir.jsp">Excluir</a>
+            <a href="/lista-contato-rsm/logout.jsp">Sair</a>
         </div>
     </div>
     
@@ -33,7 +35,7 @@
         <div class="error-container">
             <h1>500 - Erro Interno do Servidor</h1>
             <p>Desculpe, ocorreu um erro interno no servidor. Por favor, tente novamente mais tarde.</p>
-            <a href="../index.jsp" class="btn btn-primary">Voltar para a página inicial</a>
+            <a href="/lista-contato-rsm/index.jsp" class="btn btn-primary">Voltar para a página inicial</a>
         </div>
     </div>
     

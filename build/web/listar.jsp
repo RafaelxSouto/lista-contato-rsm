@@ -33,6 +33,8 @@
             <a href="cadastrar.jsp">Cadastrar Contato</a>
             <a href="listar.jsp" class="active">Listar Contatos</a>
             <a href="consultar.jsp">Consultar</a>
+            <a href="editar.jsp">Editar</a>
+            <a href="excluir.jsp">Excluir</a>
             <a href="logout.jsp">Sair</a>
         </div>
     </div>
