@@ -1,7 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
     if (session.getAttribute("usuario") == null) {
-        response.sendRedirect("login.jsp?error=unauthorized");
+        response.sendRedirect("login.jsp");
         return;
     }
 %>
