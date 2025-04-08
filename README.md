@@ -107,3 +107,5 @@ O sistema fornece feedback claro através de mensagens:
 - Validações client-side em JavaScript
 - Estilização com CSS
 - Arquitetura em camadas (MVC)
+
+- ##Projeto desenvolvido por Maria Clara, Rafael Rosa e Rafael Souto.
