@@ -74,20 +74,59 @@ Sistema web para gerenciamento de contatos pessoais, desenvolvido em Java com JS
 
 ## Estrutura de Arquivos
 ```
-web/
-├── META-INF/
-├── WEB-INF/
-├── js/
-│   └── validacoes.js
-├── styles/
-│   ├── login.css
-│   └── styles.css
-├── database/
-│   ├── db_login.sql
-│   ├── db_rsm.sql
-│   └── inserir_contatos.sql
-├── error/
-│   ├── 404.jsp
-│   └── 500.jsp
-└── [arquivos JSP principais]
+├── src/
+│   ├── java/
+│   │   ├── dao/                    # Classes de acesso a dados
+│   │   │   ├── ContatoDAO.java     # Operações de CRUD para contatos
+│   │   │   └── UsuarioDAO.java     # Operações de CRUD para usuários
+│   │   ├── database/               # Configurações de banco de dados
+│   │   │   └── DatabaseConnection.java  # Gerenciamento de conexões
+│   │   ├── model/                  # Classes de domínio
+│   │   │   └── Contato.java       # Entidade de contato
+│   │   └── util/                   # Classes utilitárias
+│   │       ├── apache-tomcat-10.1.34-windows-x64/  # Servidor Tomcat
+│   │       └── mysql-connector-j-8.1.0/            # Driver MySQL
+│   ├── database/                   # Scripts SQL
+│   │   ├── db_login.sql           # Script do banco de autenticação
+│   │   └── db_rsm.sql             # Script do banco principal
+│   └── conf/
+│       └── MANIFEST.MF            # Configurações do manifesto
+│
+├── web/                           # Arquivos da aplicação web
+│   ├── META-INF/
+│   │   └── context.xml            # Configurações de contexto
+│   ├── WEB-INF/
+│   │   └── web.xml                # Configurações da aplicação web
+│   ├── js/
+│   │   └── validacoes.js          # Validações client-side
+│   ├── styles/
+│   │   ├── login.css              # Estilos da página de login
+│   │   └── styles.css             # Estilos globais
+│   ├── database/
+│   │   ├── db_login.sql           # Script do banco de autenticação
+│   │   ├── db_rsm.sql             # Script do banco principal
+│   │   └── inserir_contatos.sql   # Script de dados iniciais
+│   ├── error/
+│   │   ├── 404.jsp                # Página de erro 404
+│   │   └── 500.jsp                # Página de erro 500
+│   ├── index.html                 # Página inicial
+│   ├── index.jsp                  # Página inicial dinâmica
+│   ├── login.jsp                  # Página de login
+│   ├── cadastrar.jsp              # Formulário de cadastro
+│   ├── listar.jsp                 # Lista de contatos
+│   ├── consultar.jsp              # Busca de contatos
+│   ├── editar.jsp                 # Edição de contatos
+│   ├── excluir.jsp                # Exclusão de contatos
+│   ├── autenticar.jsp             # Processamento de login
+│   ├── salvar_contato.jsp         # Salvar novo contato
+│   ├── atualizar_contato.jsp      # Atualizar contato existente
+│   └── logout.jsp                 # Processamento de logout
+│
+├── build.xml                      # Script de build Ant
+└── nbproject/                     # Configurações do NetBeans
+    ├── ant-deploy.xml             # Script de deploy
+    ├── build-impl.xml             # Implementação do build
+    ├── genfiles.properties        # Arquivos gerados
+    ├── project.properties         # Propriedades do projeto
+    └── project.xml                # Configuração do projeto
 ```
