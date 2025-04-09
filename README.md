@@ -1,111 +1,93 @@
 # Sistema de Gerenciamento de Contatos
 
-Este é um sistema web para gerenciamento de contatos pessoais, desenvolvido em Java com JSP (JavaServer Pages). O sistema permite cadastrar, consultar, editar e excluir contatos de forma simples e intuitiva.
+## Visão Geral
+Sistema web para gerenciamento de contatos pessoais, desenvolvido em Java com JSP (JavaServer Pages). Permite realizar operações de cadastro, consulta, edição e exclusão de contatos de forma simples e intuitiva.
 
-## Estrutura do Projeto
+## Stack Tecnológica
+- **Backend:** Java
+- **Frontend:** JSP, JavaScript, CSS
+- **Banco de Dados:** MySQL
+- **Servidor:** Apache Tomcat
+- **Arquitetura:** MVC (Model-View-Controller)
 
-### Camadas do Sistema
+## Arquitetura do Sistema
 
-- **Web (JSP)**: Interface do usuário
-  - `login.jsp`: Página de login do sistema
+### Estrutura MVC
+- **Model**
+  - Classes de domínio e regras de negócio
+  - Entidades principais:
+    - Contato: Representa os dados de um contato
+    - Usuario: Representa os dados de um usuário do sistema
+
+- **View (JSP)**
+  - `login.jsp`: Autenticação de usuários
   - `cadastrar.jsp`: Formulário de cadastro de contatos
-  - `listar.jsp`: Lista todos os contatos cadastrados
-  - `consultar.jsp`: Permite buscar contatos específicos
-  - `editar.jsp`: Formulário para atualização de contatos
-  - `excluir.jsp`: Processa a exclusão de contatos
+  - `listar.jsp`: Visualização de todos os contatos
+  - `consultar.jsp`: Busca de contatos específicos
+  - `editar.jsp`: Atualização de contatos
+  - `excluir.jsp`: Remoção de contatos
 
-- **Model**: Classes que representam as entidades do sistema
-  - Contato: Representa os dados de um contato
-  - Usuario: Representa os dados de um usuário do sistema
-
-- **DAO (Data Access Object)**: Camada de acesso ao banco de dados
-  - ContatoDAO: Gerencia as operações de banco de dados para contatos
-  - UsuarioDAO: Gerencia as operações de banco de dados para usuários
+- **Controller**
+  - Servlets para controle de fluxo da aplicação
+  - Gerenciamento de requisições e respostas
 
 ### Banco de Dados
-- Arquivos SQL localizados em `web/database/`
-  - `db_login.sql`: Estrutura da tabela de usuários
-  - `db_rsm.sql`: Estrutura da tabela de contatos
-  - `inserir_contatos.sql`: Dados iniciais para teste
+- Tabela de usuários para autenticação
+- Tabela de contatos para armazenamento dos dados principais
 
-## Fluxo do Sistema
+## Funcionalidades
 
-### 1. Autenticação
-- O usuário acessa o sistema através da página de login (`login.jsp`)
-- Insere suas credenciais (usuário e senha)
-- O sistema valida as credenciais através do `autenticar.jsp`
-- Se corretas, cria uma sessão e redireciona para a página inicial
-- Se incorretas, exibe mensagem de erro
+### Sistema de Autenticação
+- Login com validação de credenciais
+- Gerenciamento de sessão de usuário
+- Logout seguro
 
-### 2. Gerenciamento de Contatos
+### Gerenciamento de Contatos
+- Cadastro de novos contatos
+- Listagem completa de contatos
+- Sistema de busca e consulta
+- Atualização de informações
+- Exclusão de registros
 
-#### Cadastro de Contatos
-1. Usuário acessa "Cadastrar Contato" no menu
-2. Preenche o formulário com:
-   - Primeiro e último nome
-   - Endereço completo
-   - Telefone (DDD + número)
-   - E-mail
-   - Mês de nascimento
-   - CPF
-3. Sistema valida os dados em tempo real (JavaScript)
-4. Ao enviar, `salvar_contato.jsp` processa e salva no banco
+## Aspectos Técnicos
 
-#### Consulta de Contatos
-- **Listar Todos**: Através de `listar.jsp`
-- **Busca Específica**: Em `consultar.jsp`
-  - Por primeiro nome
-  - Por mês de nascimento
+### Segurança
+- Proteção contra SQL Injection
+- Validação de dados em múltiplas camadas
+- Controle de acesso baseado em sessão
+- Feedback apropriado ao usuário
 
-#### Atualização de Contatos
-1. Usuário seleciona um contato na lista
-2. Sistema carrega dados no formulário de edição
-3. Usuário faz alterações
-4. `atualizar_contato.jsp` processa e atualiza o banco
+### Frontend
+- Validações client-side com JavaScript
+- Interface responsiva com CSS
+- Páginas de erro personalizadas (404, 500)
 
-#### Exclusão de Contatos
-1. Usuário seleciona "Excluir" em um contato
-2. Sistema pede confirmação
-3. `excluir.jsp` remove o registro do banco
+### Backend
+- Conexão segura com banco de dados
+- Tratamento robusto de erros e exceções
+- Camada DAO para abstração do acesso aos dados
 
-## Recursos de Segurança
+## Equipe de Desenvolvimento
+- Maria Clara
+- Rafael Rosa
+- Rafael Souto
 
-- Validação de sessão em todas as páginas
-- Proteção contra acesso não autorizado
-- Validação de dados no cliente e servidor
-- Tratamento de erros com feedback visual
-
-## Validações do Sistema
-
-- Campos obrigatórios
-- Formato de e-mail
-- CPF (11 dígitos numéricos)
-- Telefone (formato válido)
-- Mês de nascimento (1-12)
-- Caracteres permitidos por campo
-
-## Mensagens do Sistema
-
-O sistema fornece feedback claro através de mensagens:
-- Sucesso nas operações
-- Erros de validação
-- Problemas de banco de dados
-- Acesso não autorizado
-
-## Interface do Usuário
-
-- Menu de navegação intuitivo
-- Formulários organizados
-- Feedback visual das ações
-- Design responsivo
-- Mensagens claras e objetivas
-
-## Considerações Técnicas
-
-- Desenvolvido em Java com JSP
-- Banco de dados MySQL
-- Validações client-side em JavaScript
-- Estilização com CSS
-- Arquitetura em camadas (MVC)
-
-Projeto desenvolvido por Maria Clara, Rafael Rosa e Rafael Souto.
+## Estrutura de Arquivos
+```
+web/
+├── META-INF/
+├── WEB-INF/
+├── js/
+│   └── validacoes.js
+├── styles/
+│   ├── login.css
+│   └── styles.css
+├── database/
+│   ├── db_login.sql
+│   ├── db_rsm.sql
+│   └── inserir_contatos.sql
+├── error/
+│   ├── 404.jsp
+│   └── 500.jsp
+└── [arquivos JSP principais]
+```
