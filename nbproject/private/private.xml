@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/listar.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/src/java/dao/ContatoDAO.java</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/styles/styles.css</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/src/java/database/DatabaseConnection.java</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/autenticar.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/error/500.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/index.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/database/db_login.sql</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/atualizar_contato.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/login.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/web/error/404.jsp</file>
-            <file>file:/C:/Projetos/lista-contato-rsm/src/java/model/Contato.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
